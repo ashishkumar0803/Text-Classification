@@ -58,7 +58,7 @@ Use randomly initialized embeddings and transformer encoder layers.
 | FFNN | 0.38 | 0.23 | 0.29 | [Google colab](https://colab.research.google.com/drive/18nf0fF8_XRGHzlWTQy34OczSgmjYVjiE?usp=sharing) |
 | LSTM | 0.36 | 0.23 | 0.27 | Same as above |
 | BERT | **0.76** | 0.61 | 0.65 | [Google colab](https://colab.research.google.com/drive/1KeXbYvkHEKuRgUhF9jPkmhpqy6jJRNX-?usp=sharing) |
-| ROBERTa | 0.75 | **0.62** | **0.66** | [Google colab](https://colab.research.google.com/drive/1H0uIgXKvgVF43U3tKU8uXrAXaLUzk77Z?usp=sharing) |
+| Roberta | 0.75 | **0.62** | **0.66** | [Google colab](https://colab.research.google.com/drive/1H0uIgXKvgVF43U3tKU8uXrAXaLUzk77Z?usp=sharing) |
 
 **Implementation of Viterbi Algorithm**
 
@@ -73,5 +73,6 @@ Implement the Viterbi algorithm to perform Part-of-Speech (POS) tagging using th
   - Performance Evaluation: Compare the accuracy of the baseline Viterbi algorithm vs. the noise-handled version on the provided datasets.
 ## Results [Google colab](https://colab.research.google.com/drive/13c-Q-2hPTJdS-wNzuV9DTGgwuxMJ52I0?usp=sharing)
 Baseline Accuracy (Test Data): 0.9021885316053307
+
 Noise-Handled Accuracy (Noisy Data): 0.8180706687859152
 
