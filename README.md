@@ -10,7 +10,9 @@ Given a target text snippet, predict the perceived emotion(s) of the speaker. Sp
   - Surprise (1) or no surprise (0)
   - Disgust (1) or no disgust (0)
 
-Further details on the task (Track-A) are provided at: SemEval 2025 Task 1
+Further details on the task (Track-A) are provided at: [SemEval 2025 Task 1](https://github.com/emotion-analysis-project/SemEval2025-task11) 
+
+[Dataset](https://github.com/debajyotimaz/nlp_assignment)
 
 The sample dataset is available at the above URL. The training dataset can be accessed here: Dataset Repository. The best-performing algorithm will be evaluated on a private test set.
 
@@ -43,7 +45,7 @@ FFNN: Maximum size of 64 units. RNN/LSTM: Maximum size of 64 units with a sequen
 
 (3) **Transformers**
 
-Use randomly initialized embeddings and transformer encoder layers.
+Used randomly initialized embeddings and transformer encoder layers.
 
 **Models**
   - Used a pre-trained model (BERT or RoBERTa), consisting of 12 layers.
